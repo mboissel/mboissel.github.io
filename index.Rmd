@@ -19,20 +19,20 @@ source("utils.R")
 
 ## Contact Info {#contact}
 
-- <i class="fa fa-user" style="color: #ee2c2c;"></i> Current position
-- <i class="fa fa-university" style="color: #ee2c2c;"></i> Lab/Unit's name
-- <i class="fa fa-map-marker" style="color: #ee2c2c;"></i> City, Country
-- <i class="fa fa-envelope" style="color: #ee2c2c;"></i> [your [at] email.com](mailto:your@email.com)
-- <i class="fa fa-phone" style="color: #ee2c2c;"></i> +33 (0)3 74 00 81 29
-- <i class="fa fa-linkedin" style="color: #ee2c2c;"></i> [linkedin.com/in/FBoissel](https://www.linkedin.com/in/FBoissel)
-- <i class="fa fa-github" style="color: #ee2c2c;"></i> [github.com/FBoissel](https://github.com/FBoissel)
-- <i class="fa fa-twitter" style="color: #ee2c2c;"></i> [twitter.com/FBoissel](https://twitter.com/FBoissel)
+- <i class="fa fa-user" style="color: #ff69b4;"></i> Current position
+- <i class="fa fa-university" style="color: #ff69b4;"></i> Lab/Unit's name
+- <i class="fa fa-map-marker" style="color: #ff69b4;"></i> City, Country
+- <i class="fa fa-envelope" style="color: #ff69b4;"></i> [your [at] email.com](mailto:your@email.com)
+- <i class="fa fa-phone" style="color: #ff69b4;"></i> +33 (0)3 74 00 81 29
+- <i class="fa fa-linkedin" style="color: #ff69b4;"></i> [linkedin.com/in/FBoissel](https://www.linkedin.com/in/FBoissel)
+- <i class="fa fa-github" style="color: #ff69b4;"></i> [github.com/FBoissel](https://github.com/FBoissel)
+- <i class="fa fa-twitter" style="color: #ff69b4;"></i> [twitter.com/FBoissel](https://twitter.com/FBoissel)
 
 ## Computer Skills {#skills}
 
-- <u style="color: #ee2c2c;">*Advanced:*</u> R
-- <u style="color: #ee2c2c;">*Intermediate:*</u> Julia
-- <u style="color: #ee2c2c;">*Basic:*</u> C/C++
+- <u style="color: #ff69b4;">*Advanced:*</u> R
+- <u style="color: #ff69b4;">*Intermediate:*</u> Julia
+- <u style="color: #ff69b4;">*Basic:*</u> C/C++
 
 ## Disclaimer {#disclaimer}
 
@@ -66,7 +66,7 @@ Thesis: *A really fancy title*
 
 ```{r, fig.width=6.3/2}
 library(ggplot2)
-ggplot(iris, aes(Sepal.Length, Petal.Length)) + 
+ggplot(iris, aes(Sepal.Length, Petal.Length)) +
   geom_point()
 ```
 
