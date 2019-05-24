@@ -25,7 +25,7 @@ read_article <- function(.x) {
     doi = clean_field("doi", .x),
     authors = authors, 
     journal = clean_field("journal", .x),
-    first = clean_field("first", .x),
+    first = FALSE, # clean_field("first", .x),
     stringsAsFactors = FALSE
   )
 }
