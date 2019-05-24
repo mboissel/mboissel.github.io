@@ -1,6 +1,6 @@
 ---
-title: "Firstname Lastname - Curriculum Vitæ"
-author: Firstname Lastname
+title: "Mathilde Boissel - Curriculum Vitæ"
+author: Mathilde Boissel
 output:
   pagedown::html_resume:
     css: ["cv.css"]
@@ -13,7 +13,7 @@ source("utils.R")
 
 # Aside
 
-![Firstname Lastname](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"}
+![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"}
 
 
 ## Contact Info {#contact}
@@ -23,9 +23,9 @@ source("utils.R")
 - <i class="fa fa-map-marker" style="color: #4169e1;"></i> City, Country
 - <i class="fa fa-envelope" style="color: #4169e1;"></i> [your [at] email.com](mailto:your@email.com)
 - <i class="fa fa-phone" style="color: #4169e1;"></i> +33 (0)3 74 00 81 29
-- <i class="fa fa-linkedin" style="color: #4169e1;"></i> [linkedin.com/in/FLastname](https://www.linkedin.com/in/FLastname)
-- <i class="fa fa-github" style="color: #4169e1;"></i> [github.com/FLastname](https://github.com/FLastname)
-- <i class="fa fa-twitter" style="color: #4169e1;"></i> [twitter.com/FLastname](https://twitter.com/FLastname)
+- <i class="fa fa-linkedin" style="color: #4169e1;"></i> [linkedin.com/in/FBoissel](https://www.linkedin.com/in/FBoissel)
+- <i class="fa fa-github" style="color: #4169e1;"></i> [github.com/FBoissel](https://github.com/FBoissel)
+- <i class="fa fa-twitter" style="color: #4169e1;"></i> [twitter.com/FBoissel](https://twitter.com/FBoissel)
 
 ## Computer Skills {#skills}
 
@@ -41,7 +41,7 @@ Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
 
 # Main
 
-## Firstname Lastname {#title}
+## Mathilde Boissel {#title}
 
 ### Curriculum Vitæ
 
@@ -82,13 +82,13 @@ Activities: *some details about the activites*
 mypackages <- data.frame(
   name = "NAME",
   title = "The Title of the Package",
-  authors = "Firstname Lastname, someone else, another guy",
+  authors = "Mathilde Boissel, someone else, another guy",
   where = "GitHub", # or CRAN
-  user = "FirstnameLastname", # user profile on Github
+  user = "MathildeBoissel", # user profile on Github
   since = "2019-04", # some date since when the package came out
   stringsAsFactors = FALSE
 )
-format_packages(package = mypackages, author = "Firstname Lastname", max = 57, output = "resume")
+format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, output = "resume")
 ```
 
 
@@ -114,6 +114,6 @@ articles <- read_bib("myarticles.bib")
 cat("\n")
 cat("## Publications (", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
 cat("\n")
-format_bib(bib = articles, author = "Firstname Lastname", max = 10, output = "resume")
+format_bib(bib = articles, author = "Mathilde Boissel", max = 10, output = "resume")
 ```
 
