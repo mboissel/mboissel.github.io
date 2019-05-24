@@ -18,20 +18,20 @@ source("utils.R")
 
 ## Contact Info {#contact}
 
-- <i class="fa fa-user" style="color: #4169e1;"></i> Current position
-- <i class="fa fa-university" style="color: #4169e1;"></i> Lab/Unit's name
-- <i class="fa fa-map-marker" style="color: #4169e1;"></i> City, Country
-- <i class="fa fa-envelope" style="color: #4169e1;"></i> [your [at] email.com](mailto:your@email.com)
-- <i class="fa fa-phone" style="color: #4169e1;"></i> +33 (0)3 74 00 81 29
-- <i class="fa fa-linkedin" style="color: #4169e1;"></i> [linkedin.com/in/FBoissel](https://www.linkedin.com/in/FBoissel)
-- <i class="fa fa-github" style="color: #4169e1;"></i> [github.com/FBoissel](https://github.com/FBoissel)
-- <i class="fa fa-twitter" style="color: #4169e1;"></i> [twitter.com/FBoissel](https://twitter.com/FBoissel)
+- <i class="fa fa-user" style="color: #ff69b4;"></i> Current position
+- <i class="fa fa-university" style="color: #ff69b4;"></i> Lab/Unit's name
+- <i class="fa fa-map-marker" style="color: #ff69b4;"></i> City, Country
+- <i class="fa fa-envelope" style="color: #ff69b4;"></i> [your [at] email.com](mailto:your@email.com)
+- <i class="fa fa-phone" style="color: #ff69b4;"></i> +33 (0)3 74 00 81 29
+- <i class="fa fa-linkedin" style="color: #ff69b4;"></i> [linkedin.com/in/FBoissel](https://www.linkedin.com/in/FBoissel)
+- <i class="fa fa-github" style="color: #ff69b4;"></i> [github.com/FBoissel](https://github.com/FBoissel)
+- <i class="fa fa-twitter" style="color: #ff69b4;"></i> [twitter.com/FBoissel](https://twitter.com/FBoissel)
 
 ## Computer Skills {#skills}
 
-- <u style="color: #4169e1;">*Advanced:*</u> R
-- <u style="color: #4169e1;">*Intermediate:*</u> Julia
-- <u style="color: #4169e1;">*Basic:*</u> C/C++
+- <u style="color: #ff69b4;">*Advanced:*</u> R
+- <u style="color: #ff69b4;">*Intermediate:*</u> Julia
+- <u style="color: #ff69b4;">*Basic:*</u> C/C++
 
 ## Disclaimer {#disclaimer}
 
