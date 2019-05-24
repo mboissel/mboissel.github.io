@@ -8,6 +8,7 @@ output:
 ---
  
 ```{r, results = "hide", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+options("width" = 55)
 source("utils.R")
 ```
 
@@ -59,6 +60,17 @@ Start - End
 
 Thesis: *A really fancy title*
 
+* sdhsdbf
+* dsfdfsf
+* ![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=50px}
+
+```{r, fig.width=6.3/2}
+library(ggplot2)
+ggplot(iris, aes(Sepal.Length, Petal.Length)) + 
+  geom_point()
+```
+
+
 
 ## Professional & Research Experience {data-icon=laptop}
 
@@ -98,7 +110,7 @@ format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, out
 
 Conference's name
 
-City, Country
+City, Country 
 
 Date
 
