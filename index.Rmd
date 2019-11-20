@@ -46,7 +46,8 @@ Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
 
 ### Curriculum Vitæ
 
-I'm currently working at the *XXXXXXX* as the *XXXXXXX*.
+I'm currently working as *engineer in biostatistics* in the genomic lab UMR8199 "Integrative genomic and modeling of metabolic diseases" (Univ Lille - CNRS - Institut Pasteur de Lille)
+With a Master’s degree in Applied Mathematics and Statistics, I like projects with mental challenges, precision and team work. I have skills in programming and statistical methods, with a solid educational foundation and a passion for science.
 
 ## Education {data-icon=graduation-cap data-concise=true}
 
