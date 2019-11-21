@@ -16,23 +16,24 @@ source("utils.R")
 
 ![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"}
 
-
 ## Contact Info {#contact}
 
-- <i class="fa fa-user" style="color: #ff69b4;"></i> Current position
-- <i class="fa fa-university" style="color: #ff69b4;"></i> Lab/Unit's name
-- <i class="fa fa-map-marker" style="color: #ff69b4;"></i> City, Country
-- <i class="fa fa-envelope" style="color: #ff69b4;"></i> [your [at] email.com](mailto:your@email.com)
-- <i class="fa fa-phone" style="color: #ff69b4;"></i> +33 (0)3 74 00 81 29
-- <i class="fa fa-linkedin" style="color: #ff69b4;"></i> [linkedin.com/in/FBoissel](https://www.linkedin.com/in/FBoissel)
-- <i class="fa fa-github" style="color: #ff69b4;"></i> [github.com/FBoissel](https://github.com/FBoissel)
-- <i class="fa fa-twitter" style="color: #ff69b4;"></i> [twitter.com/FBoissel](https://twitter.com/FBoissel)
+- <i class="fa fa-user" style="color: #00CED1;"></i> Current position : Engineer in biostatistics
+- <i class="fa fa-university" style="color: #00CED1;"></i> UMR8199 Integrative genomic and modeling of metabolic diseases
+- <i class="fa fa-map-marker" style="color: #00CED1;"></i> Lille, France
+- <i class="fa fa-envelope" style="color: #00CED1;"></i> [boissel.mathilde [at] gmail.com](mailto:boissel.mathilde@gmail.com)
+- <i class="fa fa-phone" style="color: #00CED1;"></i> +33 (0)6 00 00 00 00
+- <i class="fa fa-linkedin" style="color: #00CED1;"></i> [linkedin.com/in/Mathilde Boissel](https://www.linkedin.com/in/mathilde-boissel-686a14a3)
+- <i class="fa fa-github" style="color: #00CED1;"></i> [github.com/mboissel](https://github.com/mboissel)
+- <i class="fa fa-twitter" style="color: #00CED1;"></i> [twitter.com/matmat_twit](https://twitter.com/matmat_twit)
+- <i class="fab fa-orcid" style="color: #00CED1;"></i> [orcid.org/my-orcid](https://orcid.org/0000-0001-5719-8749)
+
 
 ## Computer Skills {#skills}
 
-- <u style="color: #ff69b4;">*Advanced:*</u> R
-- <u style="color: #ff69b4;">*Intermediate:*</u> Julia
-- <u style="color: #ff69b4;">*Basic:*</u> C/C++
+- <u style="color: #00CED1;">*Advanced:*</u> R
+- <u style="color: #00CED1;">*Intermediate:*</u> MySQL, POO Python, SAS, Perl
+- <u style="color: #00CED1;">*Basic:*</u> JS JSON, VBA, C++
 
 ## Disclaimer {#disclaimer}
 
@@ -46,87 +47,197 @@ Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
 
 ### Curriculum Vitæ
 
-I'm currently working as *engineer in biostatistics* in the genomic lab UMR8199 "Integrative genomic and modeling of metabolic diseases" (Univ Lille - CNRS - Institut Pasteur de Lille)
-With a Master’s degree in Applied Mathematics and Statistics, I like projects with mental challenges, precision and team work. I have skills in programming and statistical methods, with a solid educational foundation and a passion for science.
-
-## Education {data-icon=graduation-cap data-concise=true}
-
-### Doctor of Philosophy (Ph.D.) in some field
-
-University
-
-City, Country
-
-Start - End
-
-Thesis: *A really fancy title*
-
-* sdhsdbf
-* dsfdfsf
-* ![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=50px}
-
-```{r, fig.width=6.3/2}
-library(ggplot2)
-ggplot(iris, aes(Sepal.Length, Petal.Length)) +
-  geom_point()
-```
-
-
+With a master’s degree in **Applied Mathematics and Statistics**, I like projects with mental challenges, precision and team work. I have skills in programming and statistical methods, with a solid educational foundation and a passion for science.
 
 ## Professional & Research Experience {data-icon=laptop}
 
-### Position
+### Biostatistician Engineer
 
-Lab/unit/enterprise
+UMR8199 - University of Lille
 
-City, Country
+Lille, France
 
-Start - End
+10/2018 - Today
 
-Activities: *some details about the activites*
+Activities: Genomic studies in the diabetes and obesity field
+
+*Rare variants analysis (burden and dispersion tests) on enhancers areas, Study of somatics variations, Differential expression analysis in time, Functionnal anotation with DAVID, Use of NoSQL Data Base as MongoDB, Produce HTML report and Shiny Apps*
+
+### Biostatistician Engineer
+
+UMR8199 - CNRS
+
+Lille, France
+
+10/2015 - 10/2018
+
+Activities: Genomic studies in the diabetes and obesity field
+
+*Genome (and Epigenome) - Wide Association Studies, eQTL, mQTL, Differential expression analysis, Rare variants analysis (burden and dispersion tests), Statistical modelling, Clustering methods, Handling and formatting data from DNA microarray, Methylation chip or Next-Generation Sequencing..., with large sample sizes, Use of various databases : 1000 genomes, Ensembl, dbNSFP, ..., Involved in several CONSORTIUM (CHARGE, CKDGen, IMIDIA)*
+
+### Intern Modelling a treatment decision-making support
+
+Centre de Traitement des Données - CNO
+
+Caen, France
+
+04/2015 - 09/2015
+
+Activities: Applied for Hodgkin’s lymphoma patients
+
+*Modelling a recommendation system (combination of survival probabilities and patient ratings on their expectations concerning quality of life and iatrogenic effects of the treatment), Model testing by simulating its self-learning nature and sensitivity, Development of an interactive decision-making support (with Drupal, use of a WAMP, HTML, PHP and JS), introduction to data managment (Clinsight, input in eCRF, coherence test and CDISC)*
+
+### Fixed term contract Project VegeDurable 2
+
+Université de Caen
+
+Caen, France
+
+01/2014 - 04/2014
+
+Activities: Research of the effects of fertilizers, density of soil and water concentration in carrot production
+
+*Statistical modelling and clustering of measures taken in the carrot plot, Development in R and writting of reports*
 
 
-<p style="margin-bottom: 13cm"> </p> <!-- just to make sure the part with aside are on the second page -->
+<p style="margin-bottom: 3cm"> </p>
 
+### Intern Estimating of the convolution kernel of the hemodynamic response for the treatment of fMRI data
+
+Cyceron - Site GANIL
+
+Caen, France
+
+05/2014 - 06/2014
+
+Activities: Estimation of parameters of hemodynamic response function
+
+*Developement R, Matlab, Introduction to treatment of fMRI data, BOLD signal, software SPM, ImageJ*
+
+### Intern –volontary- Methodologist
+
+Lab COMETE - INSERM - CHU
+
+Caen, France
+
+06/2013 - 06/2013
+
+Activities: Analysis of data about hypovigilance on roads 
+
+*Use of R, Rstudio, Statistica and SAS, Help brought to thesis students in biology for statistical analysis*
+
+## Education {data-icon=graduation-cap data-concise=true}
+
+### Master Degree of Science (M. Sc), in Applied Mathematics "MASS"
+
+University of Caen
+
+Caen, France
+
+2013 - 2015
+
+Speciality: *Decision support in business* 
+
+* Statistics (R, SAS, VBA Excel)
+* Computer science  (POO Python, MySQL, HTML5, CSS3),
+* Mathematics of the decision, 
+* Economic and social sciences (Macro and Micro, Management control, Marketing, Optimization, Supply chain, Project management)
+
+### Bachelor Degree of Science (B. Sc), in Applied Mathematics "MASS"
+
+University of Caen
+
+Caen, France
+
+2010 - 2013
+
+Broad-spectrum of knowledge theoretical and practical subjects as statistics, computing, economy, survey and polls, marketing, econometrics, bio-statistics, management control, logistic management...
+
+### Baccalauréat (equivalent A levels) Scientific, Speciality Mathematics
+
+Lycée Le Verrier
+
+Saint-Lô, France
+
+2007 - 2010
+
+
+<!-- <p style="margin-bottom: 5.5cm"> </p> -->
+<!-- just to make sure the part with aside are on the second page -->
 
 ## R Packages {data-icon=code}
 
 ```{r rpackages, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 mypackages <- data.frame(
-  name = "NAME",
-  title = "The Title of the Package",
-  authors = "Mathilde Boissel, someone else, another guy",
+  name = "CARoT",
+  title = "Centralised and Automated RepOrting Tools ",
+  authors = "mcanouil, mboissel and Ning-L",
   where = "GitHub", # or CRAN
-  user = "MathildeBoissel", # user profile on Github
-  since = "2019-04", # some date since when the package came out
+  user = "mboissel", # user profile on Github
+  since = "2019-07", # some date since when the package came out
   stringsAsFactors = FALSE
 )
 format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, output = "resume")
 ```
 
 
+<!-- <p style="margin-bottom: 2cm"> </p> -->
+<!-- just to make sure the part with aside are on the second page -->
+
 ## Oral/Poster communications {data-icon=comment-dots}
 
-### Title
+### Feedback on RNA-seq data analyses 
 
-Conference's name
+Journal Club - UMR8199
 
-City, Country 
+Lille, France
 
-Date
+28/05/2018
 
 ::: aside
-[<i class="fa fa-github"></i> Where is the slides](some URL where the slides or poster can be found)
+[<i class="fa fa-github"></i> Where is the slides](https://github.com/mboissel/Presentations/blob/master/JCbibs_RNAseq_NingBoissel_28052019.pdf)
+:::
+
+### Analyse de variants rares issus de données de séquençage à haut débit
+
+Working group [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
+
+Paris, France
+
+12/10/2018
+
+::: aside
+[<i class="fa fa-github"></i> Where is the slides](https://github.com/mboissel/Presentations/blob/master/RIS_12102018_Boissel_Harter.pdf)
 :::
 
 
+### Shiny Web application framework for R
+
+Min2Rien
+
+Lille, France
+
+04/04/2017
+
+::: aside
+[<i class="fa fa-github"></i> Where is the video](http://lille1tv.univ-lille1.fr/videos/video.aspx?id=09ba446f-fad2-4708-8f4f-9d706c22f96d)
+:::
+
 <!-- ## Publications {data-icon=newspaper} -->
 
-```{r, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+```{r mybiblio, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 articles <- read_bib("myarticles.bib")
 cat("\n")
 cat("## Publications (", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
 cat("\n")
 format_bib(bib = articles, author = "Mathilde Boissel", max = 10, output = "resume")
 ```
+
+
+## INTEREST {data-icon=heart}
+
+* Sports: Martial art (2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
+* Trips: European big Cities, Moto bike, Hike
+* Sharing : Steering committee in a UseR group under construction at Lille, steering committee in the CNRS working group [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
+* Languages: English (professional, Certification C.L.E.S), French (Mother tongue)
 
