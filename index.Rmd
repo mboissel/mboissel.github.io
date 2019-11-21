@@ -100,7 +100,7 @@ Activities: Research of the effects of fertilizers, density of soil and water co
 *Statistical modelling and clustering of measures taken in the carrot plot, Development in R and writting of reports*
 
 
-<p style="margin-bottom: 3cm"> </p>
+<!-- <p style="margin-bottom: 1cm"> </p> -->
 
 ### Intern Estimating of the convolution kernel of the hemodynamic response for the treatment of fMRI data
 
