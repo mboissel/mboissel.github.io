@@ -18,15 +18,15 @@ source("utils.R")
 
 ## Contact Info {#contact}
 
-- <i class="fa fa-user" style="color: #00CED1;"></i> Current position : Engineer in biostatistics
+- <i class="fa fa-user" style="color: #00CED1;"></i> Current position : Biostatistician
 - <i class="fa fa-university" style="color: #00CED1;"></i> UMR8199 Integrative genomic and modeling of metabolic diseases
 - <i class="fa fa-map-marker" style="color: #00CED1;"></i> Lille, France
 - <i class="fa fa-envelope" style="color: #00CED1;"></i> [boissel.mathilde [at] gmail.com](mailto:boissel.mathilde@gmail.com)
-- <i class="fa fa-phone" style="color: #00CED1;"></i> +33 (0)6 00 00 00 00
+<!-- - <i class="fa fa-phone" style="color: #00CED1;"></i> +33 (0)6 00 00 00 00 -->
 - <i class="fa fa-linkedin" style="color: #00CED1;"></i> [linkedin.com/in/Mathilde Boissel](https://www.linkedin.com/in/mathilde-boissel-686a14a3)
 - <i class="fa fa-github" style="color: #00CED1;"></i> [github.com/mboissel](https://github.com/mboissel)
 - <i class="fa fa-twitter" style="color: #00CED1;"></i> [twitter.com/matmat_twit](https://twitter.com/matmat_twit)
-- <i class="fab fa-orcid" style="color: #00CED1;"></i> [orcid.org/my-orcid](https://orcid.org/0000-0001-5719-8749)
+- <i class="fab fa-orcid" style="color: #00CED1;"></i> [orcid.org/my_orcid](https://orcid.org/0000-0001-5719-8749)
 
 
 ## Computer Skills {#skills}
@@ -60,10 +60,10 @@ Lille, France
 
 Activities: *Genomic studies in the diabetes and obesity field*
 
-* GWAS, EWAS, eQTL, mQTL, Differential expression analyses, Rare variant analyses (burden and dispersion test) 
+* GWAS, EWAS, eQTL, mQTL, DE analyses, Rare variant analyses (burden and dispersion test) 
 * Statistical modelling, Clustering methods, Methodological support
-* Handling and formatting data from DNA microarray, Methylation chip or Next-Generation Sequencing, with large sample sizes
-* Use of various databases : 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID
+* DNA microarray, Methylation chip and Next-Generation Sequencing
+* Use of various DB : 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID
 * Involved in several CONSORTIUM (CHARGE, CKDGen, IMIDIA)
 
 ### Biostatistician Engineer
@@ -84,12 +84,11 @@ Caen, France
 
 04/2015 - 09/2015
 
-Activities: Applied for Hodgkin’s lymphoma patients
+Activities: *Modelling a recommendation system, applied for Hodgkin’s lymphoma patients*
 
-* Modelling a recommendation system (combination of survival probabilities and patient ratings on their expectations concerning quality of life and iatrogenic effects of the treatment)
-* Model tested by simulating its self-learning nature and sensitivity
-* Development of an interactive decision-making support (with Drupal, use of a WAMP, HTML, PHP and JS)
-* Introduction to data managment (Clinsight, eCRF, coherence test and CDISC)
+* Model combinating survival probabilities and patient ratings on their quality of life and iatrogenic effects, tested by simulation
+* Interactive decision-making support (developped with Drupal, WAMP, HTML, PHP and JS)
+* Introduction to data managment (Clinsight eCRF and CDISC)
 
 ### Fixed term contract Project VegeDurable 2
 
@@ -102,8 +101,6 @@ Caen, France
 Activities: *Research of the effects of fertilizers, density of soil and water concentration in carrot production*
 
 * Statistical modelling and clustering of measures taken in the carrot plot
-
-<!-- <p style="margin-bottom: 1cm"> </p> -->
 
 ### Intern Estimating of the convolution kernel of the hemodynamic response for the treatment of fMRI data
 
@@ -125,9 +122,7 @@ Caen, France
 
 06/2013 - 06/2013
 
-Activities: *Analysis of data about hypovigilance on roads*
-
-* Use of R, Statistica and SAS, Methodological support for thesis students in biology
+Activities: *Analysis with R and SAS of data about hypovigilance on roads*
 
 ## Education {data-icon=graduation-cap data-concise=true}
 
@@ -156,19 +151,13 @@ Caen, France
 
 Broad-spectrum of knowledge theoretical and practical subjects as statistics, computing, economy, survey and polls, marketing, econometrics, bio-statistics, management control, logistic management...
 
-### Baccalauréat (equivalent A levels) Scientific
+### Scientific Baccalauréat, Speciality: *Mathematics* 
 
 Lycée Le Verrier
 
 Saint-Lô, France
 
 2007 - 2010
-
-Speciality: *Mathematics* 
-
-
-<!-- <p style="margin-bottom: 5.5cm"> </p> -->
-<!-- just to make sure the part with aside are on the second page -->
 
 ## R Packages {data-icon=code}
 
@@ -184,10 +173,6 @@ mypackages <- data.frame(
 )
 format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, output = "resume")
 ```
-
-
-<!-- <p style="margin-bottom: 2cm"> </p> -->
-<!-- just to make sure the part with aside are on the second page -->
 
 ## Oral/Poster communications {data-icon=comment-dots}
 
@@ -228,6 +213,9 @@ Lille, France
 [<i class="fa fa-github"></i> Where is the video](http://lille1tv.univ-lille1.fr/videos/video.aspx?id=09ba446f-fad2-4708-8f4f-9d706c22f96d)
 :::
 
+
+<!-- <p style="margin-bottom: 1cm"> </p> -->
+
 <!-- ## Publications {data-icon=newspaper} -->
 
 ```{r mybiblio, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
@@ -246,3 +234,4 @@ format_bib(bib = articles, author = "Mathilde Boissel", max = 10, output = "resu
 * Sharing : Steering committee in a UseR group under construction at Lille, steering committee in the CNRS working group [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
 * Languages: English (professional, Certification C.L.E.S), French (Mother tongue)
 
+<!-- <p style="margin-bottom: 2cm"> </p> -->
