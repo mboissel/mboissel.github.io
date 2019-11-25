@@ -1,0 +1,256 @@
+---
+title: "Mathilde Boissel - Curriculum Vitæ"
+author: Mathilde Boissel
+output:
+  pagedown::html_resume:
+    css: ["cv.css"]
+    mathjax: null
+---
+ 
+```{r, results = "hide", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+options("width" = 55)
+source("utils.R")
+```
+
+# Aside
+
+![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"}
+
+## Contact Info {#contact}
+
+- <i class="fa fa-user" style="color: #00CED1;"></i> Actuellement : Biostatisticienne
+- <i class="fa fa-university" style="color: #00CED1;"></i> UMR8199 Génomique Intégrative et Modélisation des Maladies Métaboliques
+- <i class="fa fa-map-marker" style="color: #00CED1;"></i> Lille, France
+- <i class="fa fa-envelope" style="color: #00CED1;"></i> [boissel.mathilde [at] gmail.com](mailto:boissel.mathilde@gmail.com)
+<!-- - <i class="fa fa-phone" style="color: #00CED1;"></i> +33 (0)6 00 00 00 00 -->
+- <i class="fa fa-linkedin" style="color: #00CED1;"></i> [linkedin.com/in/Mathilde Boissel](https://www.linkedin.com/in/mathilde-boissel-686a14a3)
+- <i class="fa fa-github" style="color: #00CED1;"></i> [github.com/mboissel](https://github.com/mboissel)
+- <i class="fa fa-twitter" style="color: #00CED1;"></i> [twitter.com/matmat_twit](https://twitter.com/matmat_twit)
+- <i class="fab fa-orcid" style="color: #00CED1;"></i> [orcid.org/my_orcid](https://orcid.org/0000-0001-5719-8749)
+
+
+## Compétences {#skills}
+
+- <u style="color: #00CED1;">*Avancées :*</u> R
+- <u style="color: #00CED1;">*Intermediaires :*</u> MySQL, POO Python, SAS, Perl, Git
+- <u style="color: #00CED1;">*Basiques :*</u> Docker, JS JSON, VBA, C++
+
+## Disclaimer {#disclaimer}
+
+Dernière mise à jour `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
+
+
+# Main
+
+## Mathilde Boissel {#title}
+
+### Curriculum Vitæ
+
+Avec un master en **Mathématiques appliquées et Statistiques**, j'aime les projets ambitieux, necessitant precision et travail d'équipe. J'ai des compétences en programmation et méthode statistique, avec un solide parcours universitaire et une passion pour la science.
+
+<!-- ## Expériences Professionnelles & Recherches {data-icon=laptop} -->
+## Expériences Professionnelles {data-icon=laptop}
+
+### Ingénieure d'études biostatistiques
+
+UMR8199 - Université de Lille
+
+Lille, France
+
+10/2018 - Aujourd'hui
+
+Activitées : *Etudes génotique en lien avec le diabéte et l'obésité*
+
+* GWAS, EWAS, eQTL, mQTL, DE analyses, Analyses de variants rares (burden and dispersion test) 
+* Modélisation statistique, Classifications, Support méthodologique
+* Puce à ADN, Puce de methylation et Séquencage de nouvelle génération
+* Utilisation de 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID
+* Implication dans diverses CONSORTIUM (CHARGE, CKDGen, IMIDIA)
+
+### Ingénieure d'études biostatistiques
+
+UMR8199 - CNRS
+
+Lille, France
+
+10/2015 - 10/2018
+
+Activitées : *Etudes génotique en lien avec le diabéte et l'obésité*
+
+### Stage Modélisation d'un système d'aide à la décision
+
+Centre de Traitement des Données - CNO
+
+Caen, France
+
+04/2015 - 09/2015
+
+Activités : *Modelélisation d'une système de recommandation, application au lymphome de Hodgkin*
+
+* Modèle combinant les probabilités de survies et les notes des patients (qualité de vie et complications iatrogènes), testé par simulation
+* Support web intéractif (developpé avec Drupal, WAMP, HTML, PHP et JS)
+* Introduction au data managment (Clinsight eCRF et CDISC)
+
+### Vacation Projet VegeDurable 2
+
+Université de Caen
+
+Caen, France
+
+01/2014 - 04/2014
+
+Activités : *Recherches des effets de la fertilisation, la densité du sol et la concentration d'eau dans un champ de carotes.*
+
+* Modélisation statistique et classification des profil de mesure. 
+
+### Stage Estimation du noyau de convolution de la réponse hémodynamique pour le traitement de données IRMf
+
+Cyceron - Site GANIL
+
+Caen, France
+
+05/2014 - 06/2014
+
+Activities: *Estimation de paramétres de la fonction hémodynamique chez le rat en hypercapnie*
+
+* Introduction au traitement de données IRMf (avec R et Matlab), Signal BOLD, logiciel SPM, ImageJ
+
+<p style="margin-bottom: 1cm"> </p> 
+<!-- end of page -->
+
+### Stage –volontaire- Methodologiste
+
+Lab COMETE - INSERM - CHU
+
+Caen, France
+
+06/2013 - 06/2013
+
+Activités : *Analyses avec R et SAS de données sur l'hypovigilance au volant*
+
+
+<!-- ## Education & Formation {data-icon=graduation-cap data-concise=true} -->
+## Formations {data-icon=graduation-cap data-concise=true}
+
+
+<!-- ### Formation CompGen, Computational Genomics Approaches to Precision Medicine -->
+
+<!-- Centre Max Delbrück  -->
+
+<!-- Berlin, Allemagne -->
+
+<!-- 12/09/2016 - 23/09/2016 -->
+
+<!-- http://compgen2016.mdc-berlin.de/ -->
+
+
+### Master Mathématiques appliquées et Sciences Sociales
+
+Université de Caen, diplômée Mention Bien, Major
+
+Caen, France
+
+2013 - 2015
+
+Spécialité : MASS, *Aide à la décision en entreprise* 
+
+* Statistiques (R, SAS, VBA Excel)
+* Informatique (POO Python, MySQL, HTML5, CSS3)
+* Mathematiques de la décision et Optimisation
+* Economie et sciences sociales (Macro et Micro, Controle de gestion, Marketing, Logistique, Gestion de projet)
+
+### Licence Mathématiques appliquées et Sciences Sociales
+
+Université de Caen, diplômée Mention Bien
+
+Caen, France
+
+2010 - 2013
+
+Large spéctre de connaissances theoriques et pratiques de sujets tels que les statistiques, l'informatique, l'économie, technique d'equête et sondage, marketing, econometrie, bio-statistiques, controle de gestion et logistique. 
+
+### Baccalauréat Scientifique, Spécialité: *Mathématiques* 
+
+Lycée Le Verrier
+
+Saint-Lô, France
+
+2007 - 2010
+
+## R Packages {data-icon=code}
+
+```{r rpackages, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+mypackages <- data.frame(
+  name = "CARoT",
+  title = "Centralised and Automated RepOrting Tools ",
+  authors = "mcanouil, mboissel and Ning-L",
+  where = "GitHub", # or CRAN
+  user = "mboissel", # user profile on Github
+  since = "2019-07", # some date since when the package came out
+  stringsAsFactors = FALSE
+)
+format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, output = "resume")
+```
+
+## Communications orales & Posters {data-icon=comment-dots}
+
+### Feedback on RNA-seq data analyses 
+
+Journal Club - UMR8199
+
+Lille, France
+
+28/05/2018
+
+::: aside
+[<i class="fa fa-github"></i>Slides ici](https://github.com/mboissel/Presentations/blob/master/JCbibs_RNAseq_NingBoissel_28052019.pdf)
+:::
+
+### Analyse de variants rares issus de données de séquençage à haut débit
+
+Groupe de travail [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
+
+Paris, France
+
+12/10/2018
+
+::: aside
+[<i class="fa fa-github"></i>Slides ici](https://github.com/mboissel/Presentations/blob/master/RIS_12102018_Boissel_Harter.pdf)
+:::
+
+
+### Shiny Web application framework for R
+
+Min2Rien
+
+Lille, France
+
+04/04/2017
+
+::: aside
+[<i class="fa fa-github"></i>Vidéo ici](http://lille1tv.univ-lille1.fr/videos/video.aspx?id=09ba446f-fad2-4708-8f4f-9d706c22f96d)
+:::
+
+
+<!-- <p style="margin-bottom: 2cm"> </p>  -->
+<!-- end of page -->
+
+<!-- ## Publications {data-icon=newspaper} -->
+
+```{r mybiblio, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+articles <- read_bib("myarticles.bib")
+cat("\n")
+cat("## Publications (", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
+cat("\n")
+format_bib(bib = articles, author = "Mathilde Boissel", max = 10, output = "resume")
+```
+
+
+## Centre d'intêrets {data-icon=heart}
+
+* Sports : Arts martieux (2ans Karaté, 2ans Jujitsu, 6ans Judo), sports nécéssitant rigueur, respect et humilité
+* Voyages : Grandes villes d'europes, balade à moto et randonnées
+* Partage : Comité de pilotage dans un groupe UseR en construction à Lille, comité de pilotage dans le groupe de travail CNRS  [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
+* Langues: Anglais (professionnelle, Certification C.L.E.S), Français (Maternelle)
+
+<!-- <p style="margin-bottom: 2cm"> </p> -->
