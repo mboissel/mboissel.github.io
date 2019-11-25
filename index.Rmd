@@ -114,6 +114,9 @@ Activities: *Estimation of parameters of hemodynamic response function*
 
 * Introduction to treatment of fMRI data (with R and Matlab), BOLD signal, software SPM, ImageJ
 
+<p style="margin-bottom: 1cm"> </p> 
+<!-- end of page -->
+
 ### Intern –volontary- Methodologist
 
 Lab COMETE - INSERM - CHU
@@ -214,7 +217,8 @@ Lille, France
 :::
 
 
-<!-- <p style="margin-bottom: 1cm"> </p> -->
+<p style="margin-bottom: 2cm"> </p> 
+<!-- end of page -->
 
 <!-- ## Publications {data-icon=newspaper} -->
 
