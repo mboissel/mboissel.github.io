@@ -128,6 +128,17 @@ Caen, France
 Activities: *Analysis with R and SAS of data about hypovigilance on roads*
 
 ## Education {data-icon=graduation-cap data-concise=true}
+<!-- ## Education & Training {data-icon=graduation-cap data-concise=true} -->
+
+<!-- ### Formation CompGen, Computational Genomics Approaches to Precision Medicine -->
+
+<!-- Centre Max Delbrück  -->
+
+<!-- Berlin, Germany -->
+
+<!-- 12/09/2016 - 23/09/2016 -->
+
+<!-- http://compgen2016.mdc-berlin.de/ -->
 
 ### Master Degree of Science (M. Sc), in Applied Mathematics "MASS"
 
