@@ -32,13 +32,12 @@ source("utils.R")
 ## Computer Skills {#skills}
 
 - <u style="color: #00CED1;">*Advanced:*</u> R
-- <u style="color: #00CED1;">*Intermediate:*</u> MySQL, POO Python, SAS, Perl
-- <u style="color: #00CED1;">*Basic:*</u> JS JSON, VBA, C++
+- <u style="color: #00CED1;">*Intermediate:*</u> MySQL, POO Python, SAS, Perl, Git
+- <u style="color: #00CED1;">*Basic:*</u> Docker, JS JSON, VBA, C++
 
 ## Disclaimer {#disclaimer}
 
 Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
-
 
 
 # Main
@@ -59,9 +58,13 @@ Lille, France
 
 10/2018 - Today
 
-Activities: Genomic studies in the diabetes and obesity field
+Activities: *Genomic studies in the diabetes and obesity field*
 
-*Rare variants analysis (burden and dispersion tests) on enhancers areas, Study of somatics variations, Differential expression analysis in time, Functionnal anotation with DAVID, Use of NoSQL Data Base as MongoDB, Produce HTML report and Shiny Apps*
+* GWAS, EWAS, eQTL, mQTL, Differential expression analyses, Rare variant analyses (burden and dispersion test) 
+* Statistical modelling, Clustering methods, Methodological support
+* Handling and formatting data from DNA microarray, Methylation chip or Next-Generation Sequencing, with large sample sizes
+* Use of various databases : 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID
+* Involved in several CONSORTIUM (CHARGE, CKDGen, IMIDIA)
 
 ### Biostatistician Engineer
 
@@ -71,9 +74,7 @@ Lille, France
 
 10/2015 - 10/2018
 
-Activities: Genomic studies in the diabetes and obesity field
-
-*Genome (and Epigenome) - Wide Association Studies, eQTL, mQTL, Differential expression analysis, Rare variants analysis (burden and dispersion tests), Statistical modelling, Clustering methods, Handling and formatting data from DNA microarray, Methylation chip or Next-Generation Sequencing..., with large sample sizes, Use of various databases : 1000 genomes, Ensembl, dbNSFP, ..., Involved in several CONSORTIUM (CHARGE, CKDGen, IMIDIA)*
+Activities: *Genomic studies in the diabetes and obesity field*
 
 ### Intern Modelling a treatment decision-making support
 
@@ -85,7 +86,10 @@ Caen, France
 
 Activities: Applied for Hodgkin’s lymphoma patients
 
-*Modelling a recommendation system (combination of survival probabilities and patient ratings on their expectations concerning quality of life and iatrogenic effects of the treatment), Model testing by simulating its self-learning nature and sensitivity, Development of an interactive decision-making support (with Drupal, use of a WAMP, HTML, PHP and JS), introduction to data managment (Clinsight, input in eCRF, coherence test and CDISC)*
+* Modelling a recommendation system (combination of survival probabilities and patient ratings on their expectations concerning quality of life and iatrogenic effects of the treatment)
+* Model tested by simulating its self-learning nature and sensitivity
+* Development of an interactive decision-making support (with Drupal, use of a WAMP, HTML, PHP and JS)
+* Introduction to data managment (Clinsight, eCRF, coherence test and CDISC)
 
 ### Fixed term contract Project VegeDurable 2
 
@@ -95,10 +99,9 @@ Caen, France
 
 01/2014 - 04/2014
 
-Activities: Research of the effects of fertilizers, density of soil and water concentration in carrot production
+Activities: *Research of the effects of fertilizers, density of soil and water concentration in carrot production*
 
-*Statistical modelling and clustering of measures taken in the carrot plot, Development in R and writting of reports*
-
+* Statistical modelling and clustering of measures taken in the carrot plot
 
 <!-- <p style="margin-bottom: 1cm"> </p> -->
 
@@ -110,9 +113,9 @@ Caen, France
 
 05/2014 - 06/2014
 
-Activities: Estimation of parameters of hemodynamic response function
+Activities: *Estimation of parameters of hemodynamic response function*
 
-*Developement R, Matlab, Introduction to treatment of fMRI data, BOLD signal, software SPM, ImageJ*
+* Introduction to treatment of fMRI data (with R and Matlab), BOLD signal, software SPM, ImageJ
 
 ### Intern –volontary- Methodologist
 
@@ -122,9 +125,9 @@ Caen, France
 
 06/2013 - 06/2013
 
-Activities: Analysis of data about hypovigilance on roads 
+Activities: *Analysis of data about hypovigilance on roads*
 
-*Use of R, Rstudio, Statistica and SAS, Help brought to thesis students in biology for statistical analysis*
+* Use of R, Statistica and SAS, Methodological support for thesis students in biology
 
 ## Education {data-icon=graduation-cap data-concise=true}
 
@@ -139,8 +142,8 @@ Caen, France
 Speciality: *Decision support in business* 
 
 * Statistics (R, SAS, VBA Excel)
-* Computer science  (POO Python, MySQL, HTML5, CSS3),
-* Mathematics of the decision, 
+* Computer science  (POO Python, MySQL, HTML5, CSS3)
+* Mathematics of the decision
 * Economic and social sciences (Macro and Micro, Management control, Marketing, Optimization, Supply chain, Project management)
 
 ### Bachelor Degree of Science (B. Sc), in Applied Mathematics "MASS"
@@ -153,13 +156,15 @@ Caen, France
 
 Broad-spectrum of knowledge theoretical and practical subjects as statistics, computing, economy, survey and polls, marketing, econometrics, bio-statistics, management control, logistic management...
 
-### Baccalauréat (equivalent A levels) Scientific, Speciality Mathematics
+### Baccalauréat (equivalent A levels) Scientific
 
 Lycée Le Verrier
 
 Saint-Lô, France
 
 2007 - 2010
+
+Speciality: *Mathematics* 
 
 
 <!-- <p style="margin-bottom: 5.5cm"> </p> -->
