@@ -6,6 +6,8 @@ output:
     css: ["cv.css"]
     mathjax: null
 ---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
  
 ```{r, results = "hide", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 options("width" = 55)
@@ -173,7 +175,7 @@ Saint-Lô, France
 
 2007 - 2010
 
-## R Packages {data-icon=code}
+## <b class="fab fa-r-project"></b> Packages {data-icon=code}
 
 ```{r rpackages, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 mypackages <- data.frame(
@@ -199,7 +201,7 @@ Lille, France
 28/05/2018
 
 ::: aside
-[<i class="fa fa-github"></i> Where is the slides](https://github.com/mboissel/Presentations/blob/master/JCbibs_RNAseq_NingBoissel_28052019.pdf)
+[<i class="fa fa-github"></i>Slides](https://github.com/mboissel/Presentations/blob/master/JCbibs_RNAseq_NingBoissel_28052019.pdf)
 :::
 
 ### Analyse de variants rares issus de données de séquençage à haut débit
@@ -211,7 +213,7 @@ Paris, France
 12/10/2018
 
 ::: aside
-[<i class="fa fa-github"></i> Where is the slides](https://github.com/mboissel/Presentations/blob/master/RIS_12102018_Boissel_Harter.pdf)
+[<i class="fa fa-github"></i>Slides](https://github.com/mboissel/Presentations/blob/master/RIS_12102018_Boissel_Harter.pdf)
 :::
 
 
@@ -224,7 +226,8 @@ Lille, France
 04/04/2017
 
 ::: aside
-[<i class="fa fa-github"></i> Where is the video](http://lille1tv.univ-lille1.fr/videos/video.aspx?id=09ba446f-fad2-4708-8f4f-9d706c22f96d)
+[<i class="fa fa-github"></i>Slides](https://github.com/mboissel/Presentations/blob/master/Min2Rien_04042017_Shiny_MBoissel.pdf)  
+[Video](http://lille1tv.univ-lille1.fr/videos/video.aspx?id=09ba446f-fad2-4708-8f4f-9d706c22f96d)
 :::
 
 
@@ -234,19 +237,54 @@ Lille, France
 <!-- ## Publications {data-icon=newspaper} -->
 
 ```{r mybiblio, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
-articles <- read_bib("myarticles.bib")
+articles <- read_bib("MyZotero.bib") ## via Zotero , add skip line at the end
 cat("\n")
-cat("## Publications (", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
+sub_article <- articles[grep("Baron|Bonnefond|Jockers", articles$authors),] ## my selection
+cat("## Major publications (", format(nrow(sub_article), big.mark = ","), "/", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
 cat("\n")
-format_bib(bib = articles, author = "Mathilde Boissel", max = 10, output = "resume")
+# articles <- filter(articles, grepl("MRAP2", title))#☻ --here 
+format_bib(bib = sub_article, author = "Mathilde Boissel", max = 3, output = "resume")
 ```
 
 
 ## INTEREST {data-icon=heart}
 
-* Sports: Martial art (2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
-* Trips: European big Cities, Moto bike, Hike
-* Sharing : Steering committee in a UseR group under construction at Lille, steering committee in the CNRS working group [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
-* Languages: English (professional, Certification C.L.E.S), French (Mother tongue)
+### Sports
+
+Martial art (2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
+
+N/A
+
+N/A
+
+### Trips
+
+European big Cities, Moto bike, Hike
+
+N/A
+
+N/A
+
+### Scientific events
+
+Steering committee in a UseR group under construction at Lille; Steering committee in the CNRS working group RIS Statistics and Genomics; "Fête De la Scièce" at Lille; 
+
+N/A
+
+N/A
+
+::: aside
+[RIS; ](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)  
+[Fête De la Science; ](http://www.cue-lillenorddefrance.fr/?q=culture-patrimoine/culture-scientifique/culture-fete-de-la-science)
+:::
+
+### Languages
+
+English (professional, Certification C.L.E.S), French (Mother tongue)
+
+N/A
+
+N/A
+
 
 <!-- <p style="margin-bottom: 2cm"> </p> -->

@@ -6,7 +6,9 @@ output:
     css: ["cv.css"]
     mathjax: null
 ---
- 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
 ```{r, results = "hide", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 options("width" = 55)
 source("utils.R")
@@ -238,19 +240,52 @@ Lille, France
 <!-- ## Publications {data-icon=newspaper} -->
 
 ```{r mybiblio, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
-articles <- read_bib("myarticles.bib")
+articles <- read_bib("MyZotero.bib") ## via Zotero , add skip line at the end
 cat("\n")
-cat("## Publications (", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
+sub_article <- articles[grep("Baron|Bonnefond|Jockers", articles$authors),] ## my selection
+cat("## Major publications (", format(nrow(sub_article), big.mark = ","), "/", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
 cat("\n")
-format_bib(bib = articles, author = "Mathilde Boissel", max = 10, output = "resume")
+# articles <- filter(articles, grepl("MRAP2", title))#☻ --here 
+format_bib(bib = sub_article, author = "Mathilde Boissel", max = 3, output = "resume")
 ```
 
 
 ## Centre d'intêrets {data-icon=heart}
 
-* Sports : Arts martieux (2ans Karaté, 2ans Jujitsu, 6ans Judo), sports nécéssitant rigueur, respect et humilité
-* Voyages : Grandes villes d'europes, balade à moto et randonnées
-* Partage : Comité de pilotage dans un groupe UseR en construction à Lille, comité de pilotage dans le groupe de travail CNRS  [RIS Statistics and Genomics](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)
-* Langues: Anglais (professionnelle, Certification C.L.E.S), Français (Maternelle)
+### Sports
 
+Arts martieux (2ans Karaté, 2ans Jujitsu, 6ans Judo), sports nécéssitant rigueur, respect et humilité
+
+N/A
+
+N/A
+
+### Voyages
+
+Grandes villes d'europes, balade à moto et randonnées
+
+N/A
+
+N/A
+
+### Evenements scientifiques
+
+Comité de pilotage dans un groupe UseR en construction à Lille; comité de pilotage dans le groupe de travail CNRS; "Fête De la Scièce" à Lille; 
+
+N/A
+
+N/A
+
+::: aside
+[RIS; ](http://ris.cnrs.fr/les-groupes-de-travail/stat_et_genomique/)  
+[Fête De la Science; ](http://www.cue-lillenorddefrance.fr/?q=culture-patrimoine/culture-scientifique/culture-fete-de-la-science)
+:::
+
+### Langues
+
+Anglais (professionnelle, Certification C.L.E.S), Français (Maternelle)
+
+N/A
+
+N/A
 <!-- <p style="margin-bottom: 2cm"> </p> -->
