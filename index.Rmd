@@ -16,12 +16,15 @@ source("utils.R")
 
 # Aside
 
+<!-- ![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"} -->
+
 ![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"}
 
 ## Contact Info {#contact}
 
-- <i class="fa fa-user" style="color: #00CED1;"></i> Current position : Biostatistician
-- <i class="fa fa-university" style="color: #00CED1;"></i> UMR8199 Integrative genomic and modeling of metabolic diseases
+<!-- - <i class="fa fa-user" style="color: #00CED1;"></i> Current position : Biostatistician -->
+- <i class="fa fa-user" style="color: #00CED1;"></i> Biostatistician
+- <i class="fa fa-university" style="color: #00CED1;"></i> UMR8199/1283 Functional (Epi)genomics and Mechanisms of Type 2 Diabetes and Related Diseases
 - <i class="fa fa-map-marker" style="color: #00CED1;"></i> Lille, France
 - <i class="fa fa-envelope" style="color: #00CED1;"></i> [boissel.mathilde [at] gmail.com](mailto:boissel.mathilde@gmail.com)
 <!-- - <i class="fa fa-phone" style="color: #00CED1;"></i> +33 (0)6 00 00 00 00 -->
@@ -33,9 +36,9 @@ source("utils.R")
 
 ## Computer Skills {#skills}
 
-- <u style="color: #00CED1;">*Advanced:*</u> R
-- <u style="color: #00CED1;">*Intermediate:*</u> MySQL, POO Python, SAS, Perl, Git
-- <u style="color: #00CED1;">*Basic:*</u> Docker, JS JSON, VBA, C++
+- <u style="color: #00CED1;">*Advanced:*</u> R, Data Analysis, Visualisation, Git 
+- <u style="color: #00CED1;">*Intermediate:*</u> Docker, vcftools, Plink, SQL, POO Python, Perl
+- <u style="color: #00CED1;">*Basic:*</u> Bash, MongoDB, SAS, VBA
 
 ## Disclaimer {#disclaimer}
 
@@ -48,35 +51,26 @@ Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
 
 ### Curriculum Vitæ
 
-With a master’s degree in **Applied Mathematics and Statistics**, I like projects with mental challenges, precision and team work. I have skills in programming and statistical methods, with a solid educational foundation and a passion for science.
+With a master’s degree in **Applied Mathematics and Statistics**, I like projects with mental challenges, precision and team work. I have skills in programming and statistical methods, with a solid educational foundation and a passion for data science.
 
 ## Professional & Research Experience {data-icon=laptop}
 
 ### Biostatistician Engineer
 
-UMR8199 - University of Lille
+UMR8199 - University of Lille & CNRS
 
 Lille, France
 
-10/2018 - Today
+10/2015 - Today
 
-Activities: *Genomic studies in the diabetes and obesity field*
+Activities: *Statistical studies in genomic, diabete and obesity field*
 
-* GWAS, EWAS, eQTL, mQTL, DE analyses, Rare variant analyses (burden and dispersion test) 
-* Statistical modelling, Clustering methods, Methodological support
-* DNA microarray, Methylation chip and Next-Generation Sequencing
-* Use of various DB : 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID
+* Analyses : Methodological support, ANOVA, Modeling (GLM, Mixte model), Classification, Selection (variables or models), ACP/t-SNE, Machine Learning and cross validation, Scoring.
+* Handling omics data: DNA microarray, Methylation chip and Next-Generation Sequencing (DNA, RNAseq)
+* Omics analyses: GWAS, EWAS, TWAS (DE analyses), eQTL, mQTL, eQTM, Rare variant analyses (burden and dispersion test) 
+* Use of various Data Base : 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID. Technology : SQL, MongoDB, Arrow.
 * Involved in several CONSORTIUM (CHARGE, CKDGen, IMIDIA)
 
-### Biostatistician Engineer
-
-UMR8199 - CNRS
-
-Lille, France
-
-10/2015 - 10/2018
-
-Activities: *Genomic studies in the diabetes and obesity field*
 
 ### Intern Modelling a treatment decision-making support
 
@@ -89,7 +83,7 @@ Caen, France
 Activities: *Modelling a recommendation system, applied for Hodgkin’s lymphoma patients*
 
 * Model combinating survival probabilities and patient ratings on their quality of life and iatrogenic effects, tested by simulation
-* Interactive decision-making support (developped with Drupal, WAMP, HTML, PHP and JS)
+* Interactive decision-making support (developped with Drupal, WAMP, HTML, PHP)
 * Introduction to data managment (Clinsight eCRF and CDISC)
 
 ### Fixed term contract Project VegeDurable 2
@@ -130,6 +124,7 @@ Caen, France
 Activities: *Analysis with R and SAS of data about hypovigilance on roads*
 
 ## Education {data-icon=graduation-cap data-concise=true}
+
 <!-- ## Education & Training {data-icon=graduation-cap data-concise=true} -->
 
 <!-- ### Formation CompGen, Computational Genomics Approaches to Precision Medicine -->
@@ -192,6 +187,18 @@ format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, out
 
 ## Oral/Poster communications {data-icon=comment-dots}
 
+### Co-Founder of Lille UserR Group
+
+MeetUp
+
+Lille, France
+
+31/01/2020
+
+::: aside
+[<i class="fa fa-github"></i>Info](https://rlille.fr/posts/2020-01-31-rlille-welcome/)
+:::
+
 ### Feedback on RNA-seq data analyses 
 
 Journal Club - UMR8199
@@ -236,14 +243,15 @@ Lille, France
 
 <!-- ## Publications {data-icon=newspaper} -->
 
-```{r mybiblio, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+```{r mybiblio, results = "asis", eval = FALSE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 articles <- read_bib("MyZotero.bib") ## via Zotero , add skip line at the end
 cat("\n")
 sub_article <- articles[grep("Baron|Bonnefond|Jockers", articles$authors),] ## my selection
+# sub_article <- articles ## my selection = all article
 cat("## Major publications (", format(nrow(sub_article), big.mark = ","), "/", format(nrow(articles), big.mark = ","), "){data-icon=newspaper}\n\n", sep = "")
 cat("\n")
 # articles <- filter(articles, grepl("MRAP2", title))#☻ --here 
-format_bib(bib = sub_article, author = "Mathilde Boissel", max = 3, output = "resume")
+format_bib(bib = sub_article, author = "Mathilde Boissel", max = 4, output = "resume")
 ```
 
 
@@ -251,7 +259,7 @@ format_bib(bib = sub_article, author = "Mathilde Boissel", max = 3, output = "re
 
 ### Sports
 
-Martial art (2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
+Martial art (Karv-Maga, 2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
 
 N/A
 
@@ -259,7 +267,7 @@ N/A
 
 ### Trips
 
-European big Cities, Moto bike, Hike
+European big cities, Photos, Moto bike, Hike
 
 N/A
 
@@ -267,7 +275,7 @@ N/A
 
 ### Scientific events
 
-Steering committee in a UseR group under construction at Lille; Steering committee in the CNRS working group RIS Statistics and Genomics; "Fête De la Scièce" at Lille; 
+Steering committee in a UseR group under construction at Lille; Steering committee in the CNRS working group RIS Statistics and Genomics; "Fête De la Science" at Lille; 
 
 N/A
 
