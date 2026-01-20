@@ -16,28 +16,25 @@ source("utils.R")
 
 # Aside
 
-<!-- ![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"} -->
-
-![Mathilde Boissel](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png){width=226px, id="picture"}
+![Mathilde Boissel](OctoCat 2026-01-20 164836.png){width=226px, id="picture"}
 
 ## Contact Info {#contact}
 
 <!-- - <i class="fa fa-user" style="color: #00CED1;"></i> Current position : Biostatistician -->
-- <i class="fa fa-user" style="color: #00CED1;"></i> Biostatistician
-- <i class="fa fa-university" style="color: #00CED1;"></i> UMR8199/1283 Functional (Epi)genomics and Mechanisms of Type 2 Diabetes and Related Diseases
+- <i class="fa fa-user" style="color: #00CED1;"></i> Biostatistician / Methodologist
+- <i class="fa fa-university" style="color: #00CED1;"></i> DRCI, Hopital St Philibert, GHICL
 - <i class="fa fa-map-marker" style="color: #00CED1;"></i> Lille, France
 - <i class="fa fa-envelope" style="color: #00CED1;"></i> [boissel.mathilde [at] gmail.com](mailto:boissel.mathilde@gmail.com)
 <!-- - <i class="fa fa-phone" style="color: #00CED1;"></i> +33 (0)6 00 00 00 00 -->
 - <i class="fa fa-linkedin" style="color: #00CED1;"></i> [linkedin.com/in/Mathilde Boissel](https://www.linkedin.com/in/mathilde-boissel-686a14a3)
 - <i class="fa fa-github" style="color: #00CED1;"></i> [github.com/mboissel](https://github.com/mboissel)
-- <i class="fa fa-twitter" style="color: #00CED1;"></i> [twitter.com/matmat_twit](https://twitter.com/matmat_twit)
 - <i class="fab fa-orcid" style="color: #00CED1;"></i> [orcid.org/my_orcid](https://orcid.org/0000-0001-5719-8749)
 
 
 ## Computer Skills {#skills}
 
-- <u style="color: #00CED1;">*Advanced:*</u> R, Data Analysis, Visualisation, Git 
-- <u style="color: #00CED1;">*Intermediate:*</u> Docker, vcftools, Plink, SQL, POO Python, Perl
+- <u style="color: #00CED1;">*Advanced:*</u> R, Statistics, Data Analysis, Tests & Modalisation, Visualisation  
+- <u style="color: #00CED1;">*Intermediate:*</u> Docker, Git, vcftools, Plink, SQL, POO Python, Perl
 - <u style="color: #00CED1;">*Basic:*</u> Bash, MongoDB, SAS, VBA
 
 ## Disclaimer {#disclaimer}
@@ -51,9 +48,36 @@ Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
 
 ### Curriculum Vitæ
 
-With a master’s degree in **Applied Mathematics and Statistics**, I like projects with mental challenges, precision and team work. I have skills in programming and statistical methods, with a solid educational foundation and a passion for data science.
+I have robust skills in statistics, modelling and programming. I am passionate about science and technology, and enjoy working in a team to overcome the challenges posed by the healthcare sector.
 
 ## Professional & Research Experience {data-icon=laptop}
+
+
+### Biostatistician / Methodologist
+
+Groupement des Hôpitaux de l'Institut Catholique de Lille (GHICL), DRCI, Méthodology Team
+
+Lomme, France
+
+06/2024 - Today
+
+Activities: 
+
+* Methodology: Protocol design, statistical plan, number of subjects (power), randomisation, GIRCI call for proposals expertise.
+* Clinical data analysis: Bivariate tests, concordance, survival analysis, modelling (linear, logistic, often mixed for repeated or hierarchical data).
+* Quality approach: ISO 9001 certification (in progress), implementation of Github repository & dev {R2Excel} R pkg.
+
+### Part-time lecturer
+
+Catholic University of Lille
+
+Lille, France
+
+09/2025 - 01/2026
+
+Activities: 
+
+* Lecturer Master 1 Data Managment for Biosciences (FGES), International students (Erasmus). Total hours: 30 hours/year. Biostatistics I.
 
 ### Biostatistician Engineer
 
@@ -61,16 +85,27 @@ UMR8199 - University of Lille & CNRS
 
 Lille, France
 
-10/2015 - Today
+10/2015 - 06/2024
 
 Activities: *Statistical studies in genomic, diabete and obesity field*
 
-* Analyses : Methodological support, ANOVA, Modeling (GLM, Mixte model), Classification, Selection (variables or models), ACP/t-SNE, Machine Learning and cross validation, Scoring.
-* Handling omics data: DNA microarray, Methylation chip and Next-Generation Sequencing (DNA, RNAseq)
-* Omics analyses: GWAS, EWAS, TWAS (DE analyses), eQTL, mQTL, eQTM, Rare variant analyses (burden and dispersion test) 
-* Use of various Data Base : 1000 genomes, Ensembl, dbNSFP, COSMIC, DAVID. Technology : SQL, MongoDB, Arrow.
-* Involved in several CONSORTIUM (CHARGE, CKDGen, IMIDIA)
+* (Multi)omic analyses: GWAS, DEseq, EWAS, eQTL, mQTL, eQTM, rare variants, PGS, luciferase, MR.
+* Methods: Modelling, ANOVA, Classification, Variable/model selection, Dimension reduction (ACP/t-SNE), machine learning and cross-validation, LASSO penalised model.
+* Development & Programming: Automated and reproducible processing chains (pipelines, {renv} and {targets}, templates, R packages), visualisations and regular reports (Rmarkdown, Quarto).
+* Big data: UKBioBank, All of US, VCF, database access (MongoDB, SQL, Arrow).
+* Member of the RIS-CNRS Stat & Geno working group; Supervision (2023/2024) of the biostatistics group (2 to 3 engineers)
 
+### Part-time lecturer
+
+University of Lille
+
+Lille, France
+
+09/2020 - 06/2023
+
+Activities:
+
+* Lecturer in the OMICS Master's programme, MISO and OSB courses. Total hours: 12 hours/year. ANOVA and GLM courses
 
 ### Intern Modelling a treatment decision-making support
 
@@ -125,17 +160,21 @@ Activities: *Analysis with R and SAS of data about hypovigilance on roads*
 
 ## Education {data-icon=graduation-cap data-concise=true}
 
-<!-- ## Education & Training {data-icon=graduation-cap data-concise=true} -->
+### Trainings during professionnal life
 
-<!-- ### Formation CompGen, Computational Genomics Approaches to Precision Medicine -->
+Essais cliniques et Règlement n°536/2014 (Par Sunnikan, Lomme),  
+Etudes expérimentales en cas unique (SCED) et N-of-1 trials (Par Univ Strasb., Strasbourg),  
+ANF - Modèles Mixtes de A à Z (Par RIS, CNRS, Oléron),  
+Devenir auditeur interne selon la norme NF EN ISO 15189 (Par BioConsultants, Lille),  
+Metabolomics in R (Par Dr. Pietro Franceschi, Physalia Courses),  
+Mendelian Randomization (Par MRC Biostatistics Unit, Dr Stephen Burgess Univ of Cambridge),  
+UseR!2019 (Par R Consortium, Toulouse),  
+CompGen : Computational Genomics Approaches to Precision Medicine (Par Centre Max Delbrück, Berlin)  
 
-<!-- Centre Max Delbrück  -->
+Different places or on-line
 
-<!-- Berlin, Germany -->
+2016 - 2025
 
-<!-- 12/09/2016 - 23/09/2016 -->
-
-<!-- http://compgen2016.mdc-berlin.de/ -->
 
 ### Master Degree of Science (M. Sc), in Applied Mathematics "MASS"
 
@@ -172,6 +211,19 @@ Saint-Lô, France
 
 ## <b class="fab fa-r-project"></b> Packages {data-icon=code}
 
+```{r rpackages2, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
+mypackages <- data.frame(
+  name = "R2Excel",
+  title = "Produce Statistical Tables in *R*, Save Into (*2*) *Excel* File",
+  authors = "Mathilde Boissel [aut, cre], Cassandra Chaldaureille [aut, cre], Sahara Graf [aut], Saïd Maallem [ctb], Laurène Norberciak [aut, cre], Cristian Preda [aut, cre], Stephane Verdun [aut]", 
+  where = "GitHub", # or CRAN
+  user = "mboissel", # user profile on Github
+  since = "2024-12", # some date since when the package came out
+  stringsAsFactors = FALSE
+)
+format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, output = "resume")
+```
+
 ```{r rpackages, results = "asis", eval = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE}
 mypackages <- data.frame(
   name = "CARoT",
@@ -186,6 +238,20 @@ format_packages(package = mypackages, author = "Mathilde Boissel", max = 57, out
 ```
 
 ## Oral/Poster communications {data-icon=comment-dots}
+
+
+### R2Excel Poster
+
+EpiClin Conf
+
+Bordeaux, France
+
+2025
+
+::: aside
+[<i class="fa fa-github"></i>Info](https://www.sciencedirect.com/science/article/pii/S2950433325002836)
+:::
+
 
 ### Co-Founder of Lille UserR Group
 
@@ -259,7 +325,7 @@ format_bib(bib = sub_article, author = "Mathilde Boissel", max = 4, output = "re
 
 ### Sports
 
-Martial art (Karv-Maga, 2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
+Martial art (3y Karv-Maga, 2y Karaté, 2y Jujitsu, 6y Judo), sports needing rigor, respect and humility
 
 N/A
 
@@ -267,7 +333,7 @@ N/A
 
 ### Trips
 
-European big cities, Photos, Moto bike, Hike
+Renovation work, Photography, Family trips in European big cities, Hike
 
 N/A
 
